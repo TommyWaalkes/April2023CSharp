@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\bin\Debug\net6.0\Deliverable1.exe
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\bin\Debug\net6.0\Deliverable1.deps.json
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\bin\Debug\net6.0\Deliverable1.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\bin\Debug\net6.0\Deliverable1.dll
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\bin\Debug\net6.0\Deliverable1.pdb
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\Deliverable1.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\Deliverable1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\Deliverable1.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\Deliverable1.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\Deliverable1.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\Deliverable1.dll
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\refint\Deliverable1.dll
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\Deliverable1.pdb
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\Deliverable1.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\Deliverable1\Deliverable1\obj\Debug\net6.0\ref\Deliverable1.dll
