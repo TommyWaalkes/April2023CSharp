@@ -57,39 +57,39 @@
 //}
 
 //Method Way
-public class Program
-{
-    public static void Main()
-    {
-        bool goOn = true; 
-        while(goOn == true)
-        {
-            //Code goes here
+//public class Program
+//{
+//    public static void Main()
+//    {
+//        bool goOn = true; 
+//        while(goOn == true)
+//        {
+//            //Code goes here
 
-            goOn = Continue();
-        }
-    }
-    public static bool Continue()
-    {
-        Console.WriteLine("Would you like to continue? y/n");
-        string input3 = Console.ReadLine();
+//            goOn = Continue();
+//        }
+//    }
+//    public static bool Continue()
+//    {
+//        Console.WriteLine("Would you like to continue? y/n");
+//        string input3 = Console.ReadLine();
 
-        //When you hit a return statement it ends the method 
-        if(input3 == "y")
-        {
-            return true;
-        }
-        else if(input3 == "n")
-        {
-            Console.WriteLine("Goodbye!");
-            return false;
-        }
-        else
-        {
-            Console.WriteLine("Hey I didn't understand that lets try again!");
-            //We call the method to start over from the top 
-            return Continue();
-        }
-    }
-}
+//        //When you hit a return statement it ends the method 
+//        if(input3 == "y")
+//        {
+//            return true;
+//        }
+//        else if(input3 == "n")
+//        {
+//            Console.WriteLine("Goodbye!");
+//            return false;
+//        }
+//        else
+//        {
+//            Console.WriteLine("Hey I didn't understand that lets try again!");
+//            //We call the method to start over from the top 
+//            return Continue();
+//        }
+//    }
+//}
 

@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\bin\Debug\net6.0\LoopConditionalExercises.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\bin\Debug\net6.0\LoopConditionalExercises.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\bin\Debug\net6.0\LoopConditionalExercises.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\bin\Debug\net6.0\LoopConditionalExercises.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\bin\Debug\net6.0\LoopConditionalExercises.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\LoopConditionalExercises.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\LoopConditionalExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\LoopConditionalExercises.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\LoopConditionalExercises.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\LoopConditionalExercises.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\LoopConditionalExercises.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\refint\LoopConditionalExercises.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\LoopConditionalExercises.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\LoopConditionalExercises.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\LoopConditionalExercises\LoopConditionalExercises\obj\Debug\net6.0\ref\LoopConditionalExercises.dll
