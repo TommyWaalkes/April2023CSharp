@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\bin\Debug\net6.0\ContinueLoop.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\bin\Debug\net6.0\ContinueLoop.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\bin\Debug\net6.0\ContinueLoop.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\bin\Debug\net6.0\ContinueLoop.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\bin\Debug\net6.0\ContinueLoop.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ContinueLoop.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ContinueLoop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ContinueLoop.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ContinueLoop.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ContinueLoop.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ContinueLoop.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\refint\ContinueLoop.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ContinueLoop.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ContinueLoop.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\ContinueLoop\ContinueLoop\obj\Debug\net6.0\ref\ContinueLoop.dll
