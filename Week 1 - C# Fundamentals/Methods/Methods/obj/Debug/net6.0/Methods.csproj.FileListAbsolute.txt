@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\bin\Debug\net6.0\Methods.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\bin\Debug\net6.0\Methods.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\bin\Debug\net6.0\Methods.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\bin\Debug\net6.0\Methods.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\bin\Debug\net6.0\Methods.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\Methods.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\Methods.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\Methods.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\Methods.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\Methods.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\refint\Methods.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\Methods.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\Methods.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\Methods\Methods\obj\Debug\net6.0\ref\Methods.dll
