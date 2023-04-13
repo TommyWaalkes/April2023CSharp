@@ -38,6 +38,7 @@
             Console.WriteLine("String B: " + b);
             Console.WriteLine("String C: " + c);
             Console.WriteLine("A compared to B");
+            //== and the Equals method return the same result
             Console.WriteLine(a == b);
             Console.WriteLine(a.Equals(b));
             Console.WriteLine();
@@ -46,6 +47,7 @@
             Console.WriteLine(b.Equals(c));
             Console.WriteLine();
 
+            //Later on in the course ToArray and ToList will be very useful 
             Console.WriteLine("ToArray Example:");
             Console.WriteLine("At the end of the day, strings are just char[] arrays");
             Console.WriteLine("Before arrays existed, people just made a ton of char[] arrays");
@@ -60,15 +62,22 @@
                 Console.WriteLine(s);
             }
             Console.WriteLine();
+            slim[0] = 't';
             Console.WriteLine(slim[0]);
 
-
+            string slim2 = new string(slim);
+            
+            
             Console.WriteLine();
             Console.WriteLine("Substring Example:");
             Console.WriteLine("Substring is much like a film editor cutting film, you cut out and return a subsection of a string");
 
             a = "tommy waalkes";
-            string sub = a.Substring(6, 7);
+            //Definitly one of the most useful string methods 
+            //It allows you to cut out part of your string making rearranging
+
+            //The first param of substring is the starting index, second param is how many spaces to the right you wish to go. 
+            string sub = a.Substring(6,7);
             Console.WriteLine("Original String: " + a);
             Console.WriteLine("Substring: " + sub);
 
@@ -78,13 +87,15 @@
             Console.WriteLine("The method returns the first index where it finds a match. If nothing is found it returns the unniversal sign for errors: -1");
 
             a = "joey waalkes";
-            int result = a.IndexOf("a");
+            //-1 is the universal sign of either not found or an error occurred while searching 
+            int result = a.IndexOf("z");
+            Console.WriteLine(result);
             if (a.Contains("j") || a.Contains("w"))
             {
                 Console.WriteLine("We found joey's name");
             }
 
-            Console.WriteLine(result);
+            
 
             Console.WriteLine();
             Console.WriteLine("ToLower and ToUpper Examples");
@@ -111,7 +122,9 @@
             string name = "tommy waalkes is a teacher\t Burger king is the real king\t Taco Bell is fine cusine\t Ronald McDonald is scary";
 
             //if split is not given any parameters it will split along the spaces
-            string[] n = name.Split("\n");
+
+            //Split without parameters will cut along spaces 
+            string[] n = name.Split();
             Console.WriteLine(name);
 
             Console.WriteLine();
