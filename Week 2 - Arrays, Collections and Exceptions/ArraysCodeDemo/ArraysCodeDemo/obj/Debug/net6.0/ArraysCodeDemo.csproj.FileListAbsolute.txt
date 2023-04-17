@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\bin\Debug\net6.0\ArraysCodeDemo.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\bin\Debug\net6.0\ArraysCodeDemo.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\bin\Debug\net6.0\ArraysCodeDemo.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\bin\Debug\net6.0\ArraysCodeDemo.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\bin\Debug\net6.0\ArraysCodeDemo.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ArraysCodeDemo.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ArraysCodeDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ArraysCodeDemo.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ArraysCodeDemo.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ArraysCodeDemo.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ArraysCodeDemo.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\refint\ArraysCodeDemo.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ArraysCodeDemo.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ArraysCodeDemo.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ArraysCodeDemo\ArraysCodeDemo\obj\Debug\net6.0\ref\ArraysCodeDemo.dll

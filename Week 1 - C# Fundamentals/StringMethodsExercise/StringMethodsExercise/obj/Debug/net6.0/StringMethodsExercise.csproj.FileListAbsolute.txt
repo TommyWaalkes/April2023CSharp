@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\bin\Debug\net6.0\StringMethodsExercise.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\bin\Debug\net6.0\StringMethodsExercise.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\bin\Debug\net6.0\StringMethodsExercise.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\bin\Debug\net6.0\StringMethodsExercise.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\bin\Debug\net6.0\StringMethodsExercise.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\StringMethodsExercise.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\StringMethodsExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\StringMethodsExercise.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\StringMethodsExercise.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\StringMethodsExercise.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\StringMethodsExercise.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\refint\StringMethodsExercise.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\StringMethodsExercise.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\StringMethodsExercise.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 1 - C# Fundamentals\StringMethodsExercise\StringMethodsExercise\obj\Debug\net6.0\ref\StringMethodsExercise.dll
