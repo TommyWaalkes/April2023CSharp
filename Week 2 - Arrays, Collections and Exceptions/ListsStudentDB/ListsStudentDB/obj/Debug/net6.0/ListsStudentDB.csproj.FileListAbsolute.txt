@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\bin\Debug\net6.0\ListsStudentDB.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\bin\Debug\net6.0\ListsStudentDB.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\bin\Debug\net6.0\ListsStudentDB.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\bin\Debug\net6.0\ListsStudentDB.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\bin\Debug\net6.0\ListsStudentDB.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ListsStudentDB.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ListsStudentDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ListsStudentDB.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ListsStudentDB.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ListsStudentDB.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ListsStudentDB.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\refint\ListsStudentDB.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ListsStudentDB.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ListsStudentDB.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ListsStudentDB\ListsStudentDB\obj\Debug\net6.0\ref\ListsStudentDB.dll
