@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\bin\Debug\net6.0\ExceptionsRoomCalculator.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\bin\Debug\net6.0\ExceptionsRoomCalculator.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\bin\Debug\net6.0\ExceptionsRoomCalculator.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\bin\Debug\net6.0\ExceptionsRoomCalculator.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\bin\Debug\net6.0\ExceptionsRoomCalculator.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ExceptionsRoomCalculator.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ExceptionsRoomCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ExceptionsRoomCalculator.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ExceptionsRoomCalculator.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ExceptionsRoomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ExceptionsRoomCalculator.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\refint\ExceptionsRoomCalculator.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ExceptionsRoomCalculator.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ExceptionsRoomCalculator.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 2 - Arrays, Collections and Exceptions\ExceptionsRoomCalculator\ExceptionsRoomCalculator\obj\Debug\net6.0\ref\ExceptionsRoomCalculator.dll
