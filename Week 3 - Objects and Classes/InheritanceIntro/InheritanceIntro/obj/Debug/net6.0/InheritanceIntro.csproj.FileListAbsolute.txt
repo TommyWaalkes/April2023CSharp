@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\bin\Debug\net6.0\InheritanceIntro.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\bin\Debug\net6.0\InheritanceIntro.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\bin\Debug\net6.0\InheritanceIntro.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\bin\Debug\net6.0\InheritanceIntro.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\bin\Debug\net6.0\InheritanceIntro.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\InheritanceIntro.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\InheritanceIntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\InheritanceIntro.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\InheritanceIntro.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\InheritanceIntro.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\InheritanceIntro.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\refint\InheritanceIntro.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\InheritanceIntro.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\InheritanceIntro.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\InheritanceIntro\InheritanceIntro\obj\Debug\net6.0\ref\InheritanceIntro.dll

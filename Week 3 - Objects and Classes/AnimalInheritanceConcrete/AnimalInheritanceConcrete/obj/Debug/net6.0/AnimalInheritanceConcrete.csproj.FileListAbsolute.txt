@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\bin\Debug\net6.0\AnimalInheritanceConcrete.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\bin\Debug\net6.0\AnimalInheritanceConcrete.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\bin\Debug\net6.0\AnimalInheritanceConcrete.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\bin\Debug\net6.0\AnimalInheritanceConcrete.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\bin\Debug\net6.0\AnimalInheritanceConcrete.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\AnimalInheritanceConcrete.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\AnimalInheritanceConcrete.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\AnimalInheritanceConcrete.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\AnimalInheritanceConcrete.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\AnimalInheritanceConcrete.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\AnimalInheritanceConcrete.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\refint\AnimalInheritanceConcrete.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\AnimalInheritanceConcrete.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\AnimalInheritanceConcrete.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\AnimalInheritanceConcrete\AnimalInheritanceConcrete\obj\Debug\net6.0\ref\AnimalInheritanceConcrete.dll
