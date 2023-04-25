@@ -1,0 +1,15 @@
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\bin\Debug\net6.0\MovieLab.exe
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\bin\Debug\net6.0\MovieLab.deps.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\bin\Debug\net6.0\MovieLab.runtimeconfig.json
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\bin\Debug\net6.0\MovieLab.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\bin\Debug\net6.0\MovieLab.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\MovieLab.csproj.AssemblyReference.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\MovieLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\MovieLab.AssemblyInfoInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\MovieLab.AssemblyInfo.cs
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\MovieLab.csproj.CoreCompileInputs.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\MovieLab.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\refint\MovieLab.dll
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\MovieLab.pdb
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\MovieLab.genruntimeconfig.cache
+C:\Users\Tommy Waalkes\Desktop\April 2023 C# Class Repo\Week 3 - Objects and Classes\MovieLab\MovieLab\obj\Debug\net6.0\ref\MovieLab.dll
