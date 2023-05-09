@@ -1,0 +1,18 @@
+/* Apply to all matching elements */
+h1 {
+    color: darkgray;
+}
+
+/* Classes are reusable */
+.textBlue {
+    color:blue; 
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/* Ids are more specific */
+#bold {
+    font-weight: bold;
+}
