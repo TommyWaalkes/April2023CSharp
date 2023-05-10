@@ -1,0 +1,38 @@
+* {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Satisfy', cursive;
+}
+
+body {
+    background-color: #62d5b4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.header {
+    background-color: #83eec5;
+    padding-bottom: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: #83eec5;
+}
+
+img {
+    height: 10rem;
+}
+
+@media screen and (min-width: 600px) {
+    *{
+        text-align: left;
+    }
+}
