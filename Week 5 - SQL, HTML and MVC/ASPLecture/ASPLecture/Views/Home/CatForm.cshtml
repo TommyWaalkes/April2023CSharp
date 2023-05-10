@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+ <!-- asp action should be where you want to send data -->
+<form asp-method="post" asp-action="CatResult">
+    <p>Please enter the cats name</p>
+    <input type="text" name="CatName" />
+
+    <p>Please enter the cats age</p>
+    <input type="number" name="CatAge" />
+
+    <p>Are they neutered?</p>
+    <input type="checkbox" name="neutered" value="true" />
+
+    <input type="submit" />
+</form>
