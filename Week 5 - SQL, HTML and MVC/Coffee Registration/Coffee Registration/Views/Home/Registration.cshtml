@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form asp-action="Result" asp-method="post">
+    <p>Please enter your first name.</p>
+    <input type="text" name="FirstName" required/>
+
+    <p>Please enter your last name.</p>
+    <input type="text" name="LastName" required />
+
+    <p>Please enter your email.</p>
+    <input type="email" name="Email" required />
+
+    <p>Please enter your password.</p>
+    <input type="password" name="Password" title="At least 1 Uppercase
+At least 1 Lowercase
+At least 1 Number
+At least 1 Symbol, symbol allowed --> !@@#$%^&*_=+-
+Min 8 chars and Max 12 chars" 
+        required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@@#$%^&*_=+-]).{8,12}$" />
+
+    <p>What is your favorite coffee?</p>
+    <select name="Favorite">
+        <option>Black Coffee</option>
+        <option>Caramel Latte</option>
+        <option>Mocha Ice Capp</option>
+        <option>Peppermint Mocha</option>
+        <option>Chocolate Java Mint Frapp</option>
+        <option>Hot Chocolate</option>
+    </select>
+
+    <p>Choice of milk?</p>
+    <p>Whole Milk</p>
+    <input type="radio" name="Milk" value="Whole Milk" checked />
+    <p>Oat Milk</p>
+    <input type="radio" name="Milk" value="Oat Milk" />
+    <p>Soy Milk</p>
+    <input type="radio" name="Milk" value="Soy Milk" />
+
+    <input type="submit" />
+</form>
