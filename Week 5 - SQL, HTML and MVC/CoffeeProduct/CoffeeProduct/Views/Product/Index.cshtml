@@ -1,0 +1,7 @@
+﻿@model List<Product>
+
+@foreach(Product p in Model)
+{
+    <a asp-action="Detail" asp-controller="Product" asp-route-productId="@p.Id" ><p>@p.Name</p></a>
+    <p>@p.Price</p>
+}
