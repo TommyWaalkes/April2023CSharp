@@ -1,8 +1,13 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<Pet>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Select a Breed</h2>
+
+<form asp-action="Result" asp-controller="Home">
+    @foreach(Pet p in Model)
+    {
+        <input type="radio" name="breed" value="@p.Breed" />  @p.Breed
+        <br/>
+    }
+    <input type="submit"/>
+</form>
+

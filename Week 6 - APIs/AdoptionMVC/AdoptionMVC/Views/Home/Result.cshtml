@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Pet>
+
+
+@foreach(Pet p in Model){
+    <p>@p.Name</p>
+    <a asp-action="Adopt" asp-controller="Home" asp-route-id="@p.Id"><button> Adopt </button></a>
+    <img src="C:\Users\thoma\Desktop\Class Repo\April2023CSharp\Week 6 - APIs\AdoptionMVC\AdoptionMVC\wwwroot\@p.Img" />
+
+    <br />
+}
