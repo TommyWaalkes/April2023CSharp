@@ -1,0 +1,10 @@
+﻿@model DonutDetails
+
+<p>Name: @Model.name</p>
+<img src="@Model.photo" width="auto" height="100px"/>
+<p>Calories: @Model.calories</p>
+
+<p>Extras:</p>
+@foreach(string extra in Model.extras){
+    <p>@extra</p>
+}

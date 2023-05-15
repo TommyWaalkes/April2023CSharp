@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Result>
+
+@foreach(Result donut in Model)
+{
+    <p>ID: @donut.id Name: @donut.name</p>
+}
+
+
+<form asp-action="Details" asp-controller="Home">
+    <p>Id for Donut Look up</p>
+    <input name="Id" type="number" min="1" max="@Model.Count()"/>
+
+    <input type="submit" value="Look Up Donut"/>
+</form>

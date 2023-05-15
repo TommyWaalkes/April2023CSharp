@@ -1,0 +1,12 @@
+﻿@model SWPerson
+
+
+<p>Name: @Model.name</p>
+<p>Eye Color: @Model.eye_color</p>
+<p>Birth Year: @Model.birth_year</p>
+
+<p>Appears in the following films: </p>
+@foreach (string film in Model.films)
+{
+    <p>@film</p>
+}

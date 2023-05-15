@@ -8,7 +8,7 @@ namespace SWAPIExample.Controllers
     {
         //Lets make 2 views: 1) Input for an Id for SWPerson 2) Details of the choosen SWPerson 
         private readonly ILogger<HomeController> _logger;
-        SWDAL SWapi = new SWDAL();
+        DonutDAL donutAPI = new DonutDAL();
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -17,25 +17,20 @@ namespace SWAPIExample.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<Result> donuts = donutAPI.GetDonuts().results.ToList();
+            return View(donuts);
         }
 
         public IActionResult Details(int Id)
         {
-            SWPerson sp = SWapi.GetPerson(Id);
-
-            return View(sp);
+            //SWPerson sp = SWapi.GetPerson(Id);
+            DonutDetails result = donutAPI.GetDonutDetails(Id);
+            return View(result);
         }
 
         public IActionResult Privacy()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

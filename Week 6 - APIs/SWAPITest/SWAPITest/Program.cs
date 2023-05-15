@@ -1,6 +1,4 @@
-using System.Net;
-
-namespace SWAPIExample
+namespace SWAPITest
 {
     public class Program
     {
@@ -10,11 +8,6 @@ namespace SWAPIExample
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddHttpsRedirection(options =>
-            {
-                options.RedirectStatusCode = (int)HttpStatusCode.TemporaryRedirect;
-                options.HttpsPort = 5001;
-            });
 
             var app = builder.Build();
 
@@ -22,11 +15,7 @@ namespace SWAPIExample
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
             }
-
-            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
