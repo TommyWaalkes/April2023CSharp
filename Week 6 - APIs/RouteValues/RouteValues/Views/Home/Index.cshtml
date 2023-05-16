@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Student>
+
+    <div>
+    @foreach(Student s in Model)
+    {
+        <p>@s.Name</p>
+        @*With ASP-route you may fill in any name you wish, this will pass along the value 
+            of any string or number you give. This cannot handle passing along objects or collections.
+        *@
+        <a asp-action="Details" asp-controller="Home" asp-route-id="@s.Id"><p>Learn more about this student</p></a>
+        <br/>
+    }
+</div>

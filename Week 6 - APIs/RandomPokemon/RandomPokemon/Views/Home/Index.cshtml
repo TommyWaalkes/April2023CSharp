@@ -1,0 +1,20 @@
+﻿@model Pokemon
+
+<p>Name: @Model.name</p>
+<p>Id: @Model.id </p>
+
+<img src="@Model.sprites.front_default" />
+
+<p>Type(s)</p>
+
+@*var on a varialbe allows it to be any datatype, this is useful in 3 cases: 
+1) The name of your class is long 
+2) The name of your class matches the name of a built in class 
+3) You're unsure what type a method will return - Linq
+
+I try to steer clear of var, it is loose typing in a language not built around that 
+var throws exception easily.
+*@
+@foreach(var t in Model.types){
+    <p>@t.type.name</p>
+}

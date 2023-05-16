@@ -1,0 +1,6 @@
+﻿@model IEnumerable<PlayerDeck>
+
+@foreach (PlayerDeck pd in Model)
+{
+    <img src="@pd.cards[0].image" />
+}

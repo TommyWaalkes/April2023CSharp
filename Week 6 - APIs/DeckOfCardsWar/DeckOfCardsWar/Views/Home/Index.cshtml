@@ -3,3 +3,6 @@
 @foreach(PlayerDeck pd in Model){
     <img src="@pd.cards[0].image"/>
 }
+<br />
+
+<a asp-action="FindWinner" asp-controller="Home" asp-route-players="@Model" >Find Winner</a>
