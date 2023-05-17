@@ -13,6 +13,9 @@ namespace RandomPokemon.Controllers
             _logger = logger;
         }
 
+        [HttpGet] //<- this specifies what type of call an action makes to your server 
+        //by default all method are gets, but later you may use this tag for setting endpoint on your own created api 
+        //More on this tomorrow
         public IActionResult Index()
         {
             Pokemon p = pokeAPI.GetRandomPokemon();

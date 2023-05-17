@@ -74,6 +74,8 @@ namespace DeckOfCardsWar.Controllers
                 players[0].cards = p1Cards.ToArray();
             }
 
+            TempData["Decks"] = players;
+
             return View(players);
         }
     }
