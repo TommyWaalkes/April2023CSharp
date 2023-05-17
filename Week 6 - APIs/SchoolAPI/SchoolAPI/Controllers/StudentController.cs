@@ -72,5 +72,64 @@ namespace SchoolAPI.Controllers
                                         IsPassing=false};
             }
         }
+
+        //There's 2 approaches to creating object with an API 
+        //1) Fill out each property as a parameter to the API method 
+        //2) Attach an object to the body of our HTTP call, this can be done through postman
+        //It depends on whether or not the object has a lot of properties 
+        //If it only has a few I'll do parameter but if it has 8+ properties, I will do it via the body
+
+        //Anything that's not a get needs to be tested either through swagger or postman
+        //Without a lot of hassle, browser cannot do not GET calls
+        [HttpPost("Name{name}&Age{age}&AverageGrade{grade}&IsPassing{passing}")]
+        public string CreateStudent(string name, int age, double grade, bool passing)
+        {
+            Student s = new Student() { Name = name, Age = age, AverageGrade = grade, IsPassing = passing };
+
+            db.Students.Add(s);
+            db.SaveChanges();
+
+            return $"{name} was successfully added to the database";
+        }
+
+        [HttpPost]
+        public string CreateStudent(Student newStudent)
+        {
+            db.Students.Add(newStudent);
+            db.SaveChanges();
+
+            return $"{newStudent.Name} was successfully added to the database";
+
+        }
+
+        [HttpDelete("{id}")]
+        public string DeleteStudent(int id)
+        {
+            Student studentToDel = db.Students.Find(id);
+            if (studentToDel != null)
+            {
+                db.Students.Remove(studentToDel);
+                db.SaveChanges();
+                return $"Student at {id} was deleted successfully";
+            }
+            else
+            {
+                return $"There was no student at {id}, nothing was deleted";
+            }
+        }
+
+        //Update needs 2 things: new values to put into a row in the database and the Id of the entry you wish to update 
+        //Updates will make a new object and override the old object, so any value you wish to leave alone, you need to put into 
+        //the new model.
+
+        [HttpPut("{id}")]
+        public string UpdateStudent(Student newValues, int id)
+        {
+            newValues.Id = id;
+            db.Students.Update(newValues);
+            db.SaveChanges();
+
+            return $"Student at {id} was updated successfully";
+        }
     }
 }
