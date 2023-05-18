@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Employee>
+
+    <table>
+        <tr>
+            <th>
+            First Name
+            </th>
+            <th>Age</th>
+            <th>Salary</th>
+        </tr>
+    @foreach(Employee e in Model)
+    {
+        <tr>
+            <td> @e.FirstName</td>
+            <td>@e.Age</td>
+            <td>@e.Salary</td>
+        </tr>
+    }
+
+    </table>
+
+    <h2>Look up Retirement info</h2>
+<form asp-action="RetirementInfo" asp-controller="Home">
+    <label for="id">Choose an Employee:</label>
+    <select name="id" id="cars">
+        @foreach(Employee e in Model)
+        {
+            <option value="@e.Id">@e.FirstName</option>
+        }
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>

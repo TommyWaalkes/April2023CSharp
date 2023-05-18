@@ -8,7 +8,7 @@ namespace SchoolAPI.Controllers
     //This means use the Controller prefix for this section of the API 
     //So this controller will be at localhost:1000/Student
     [Route("[controller]")]
-    public class StudentController
+    public class StudentController :ControllerBase
     {
         SchoolContext db = new SchoolContext();
         [HttpGet("Welcome")]
