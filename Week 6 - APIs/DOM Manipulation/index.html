@@ -1,0 +1,41 @@
+<html>
+    <body>
+        <h2 id="Header">Hello World</h2>
+
+        <p>Foods I like</p>
+        <ul>
+            <li>Currys</li>
+            <Li>Pasta dishes</Li>
+            <li>Taco Bell</li>
+        </ul>
+        <button onclick="changeHeaderColor()">Change Header Color</button>
+        <button onclick="increaseLiSize()">Grow Lis</button>
+
+        <br>
+        <p>Input 2 nums and select an operation to do some mathr</p>
+        <select name="operation" id="operation">
+            <option value="add">Add</option>
+            <option value="sub">Subtract</option>
+            <option value="multi">Multiply</option>
+            <option value="divide">Divide</option>
+          </select>
+        <input id="num1" name="num1" type="number"/>
+        <input id="num2" name="num2" type="number"/>
+        <button onclick="doMath()">Do Math</button>
+
+        <p>Result: </p>
+        <p id="output"></p>
+
+
+        <!-- For DOM Manipulation to work, you need to either put it inside a method OR place the script at the bottom of the file
+            If HTML see a JS file it stops rendering and allows the JS to run, but if the script is at the top, then 
+            the rest hasn't loaded yet. 
+        -->
+        <script src="DOMExample.js">
+            //you're allowed to write Javascript inside of script tags. Typically, I either call a method or write one and done script in 
+            //my script tags. 
+            //changeHeaderColor(); 
+
+        </script>
+    </body>
+</html>
