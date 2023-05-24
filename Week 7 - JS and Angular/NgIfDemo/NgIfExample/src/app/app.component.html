@@ -1,0 +1,31 @@
+<h2>Employees</h2>
+
+<div *ngFor="let e of employees">
+  <div *ngIf="e.salary > 10000">
+    <p>Name: {{e.name}}</p>
+    <p>Title: {{e.title}}</p>
+    <p>Salary: {{e.salary}}</p>
+  </div>
+</div>
+
+<!-- So angular instead of onClick, wants you to use (click) -->
+<button (click)="toggleForm()">Toggle New Employee Form</button>
+
+<!-- To use a form you need 2 things: NgModel for each property and a method tied to the button to run the code for adding in the employee -->
+<div *ngIf="showForm">
+
+  <p>Name: </p>
+  <input type="text" name="name" />
+  <br/> 
+  <p>Title: </p>
+  <input type="text" name="title"/>
+  <br/>
+  <p>Salary:</p>
+  <input type="number" name="salary" min="0"/>
+  <br/>
+
+  <p>Age:</p>
+  <input type="number" name="age" min="0"/>
+
+  <button>Create new Employee</button>
+</div>
