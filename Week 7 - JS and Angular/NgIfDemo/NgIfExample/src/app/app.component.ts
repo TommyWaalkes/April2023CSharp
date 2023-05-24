@@ -17,8 +17,36 @@ export class AppComponent {
 
   showForm:boolean = true;
   newEmployee:Employee = {name:"", age:0, salary:0, title:""};
+  employeeToEdit:Employee = {name:"", age:0, salary:0, title:""};
   toggleForm(): void{
     this.showForm = !this.showForm;
+  }
+
+  createNewEmployee(): void{
+    this.employees.push(this.newEmployee); 
+
+    //Clear out the values in new employee
+    this.newEmployee =  {name:"", age:0, salary:0, title:""};
+  }
+
+  editEmployee(i:number){
+    //Hide other Employees first so only one form appears at a time 
+    for(let j = 0; j < this.employees.length; j++){
+      this.employees[j].isEditing = false;
+    }
+
+    //Seleect the employee to edit 
+    //show the edit form for that employee
+    this.employeeToEdit = this.employees[i];
+    this.employeeToEdit.isEditing = true;
+  }
+
+  hideEmployee(i:number):void{
+    this.employees[i].isEditing = false;
+  }
+
+  deleteEmployee(i:number):void{
+    this.employees.splice(i,1);
   }
 
 }

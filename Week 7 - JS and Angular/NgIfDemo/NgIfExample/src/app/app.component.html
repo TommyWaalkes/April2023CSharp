@@ -1,11 +1,29 @@
 <h2>Employees</h2>
-
-<div *ngFor="let e of employees">
-  <div *ngIf="e.salary > 10000">
+<!--*ngIf="e.salary > 10000"-->
+<div *ngFor="let e of employees; index as i">
+  <div >
     <p>Name: {{e.name}}</p>
     <p>Title: {{e.title}}</p>
     <p>Salary: {{e.salary}}</p>
+    <button *ngIf="!e.isEditing" (click)="editEmployee(i)">Edit {{e.name}}</button>
+    <div *ngIf="e.isEditing">
+      <p>Name: </p>
+      <input type="text" name="name" [(ngModel)]="employeeToEdit.name" />
+      <br/> 
+      <p>Title: </p>
+      <input type="text" name="title" [(ngModel)]="employeeToEdit.title"/>
+      <br/>
+      <p>Salary:</p>
+      <input type="number" name="salary" min="0" [(ngModel)]="employeeToEdit.salary"/>
+      <br/>
+      
+      <p>Age:</p>
+      <input type="number" name="age" min="0" [(ngModel)]="employeeToEdit.age"/>
+      <button (click)="hideEmployee(i)">Done Editing</button>
+    </div>
+    <button (click)="deleteEmployee(i)">Delete {{e.name}}</button>
   </div>
+  <br/>
 </div>
 
 <!-- So angular instead of onClick, wants you to use (click) -->
@@ -14,18 +32,21 @@
 <!-- To use a form you need 2 things: NgModel for each property and a method tied to the button to run the code for adding in the employee -->
 <div *ngIf="showForm">
 
+  <!-- A binding is a coupling of a variable to HTML. Changes to one are reflected in the other.-->
   <p>Name: </p>
-  <input type="text" name="name" />
+  <input type="text" name="name" [(ngModel)]="newEmployee.name" />
   <br/> 
   <p>Title: </p>
-  <input type="text" name="title"/>
+  <input type="text" name="title" [(ngModel)]="newEmployee.title"/>
   <br/>
   <p>Salary:</p>
-  <input type="number" name="salary" min="0"/>
+  <input type="number" name="salary" min="0" [(ngModel)]="newEmployee.salary"/>
   <br/>
 
   <p>Age:</p>
-  <input type="number" name="age" min="0"/>
+  <input type="number" name="age" min="0" [(ngModel)]="newEmployee.age"/>
 
-  <button>Create new Employee</button>
+  <button (click)="createNewEmployee()">Create new Employee</button>
 </div>
+
+<P>Employee Name: {{newEmployee.name}}</P>
