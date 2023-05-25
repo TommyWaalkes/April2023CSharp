@@ -1,0 +1,8 @@
+<!--If you want this to be its own page, create a route for it-->
+<!--If you want to use this component in another component, put its tag into the other component's view-->
+
+<div *ngFor="let s of students; index as i">
+    <p>Name: {{s.name}}</p>
+    <p>Grade: {{s.grade}}</p>
+    <br/>
+</div>

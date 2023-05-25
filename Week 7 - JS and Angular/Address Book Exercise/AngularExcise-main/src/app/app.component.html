@@ -1,0 +1,17 @@
+<h2>Adress App</h2>
+<div *ngFor="let a of addresslist; index as i">
+<div>
+  <p>Name:{{a.name}} <span>Address:{{a.naddress}}</span></p>
+  <button (click)="deleteAddress(i)">Delete {{a.name}}</button>
+</div>
+</div>
+
+
+
+<!-- <div *ngFor="let a of addresslist; index as i"> -->
+  <p>Name:</p>
+  <input type="text" name="name" [(ngModel)]="newAddress.name"/>
+  <p>Adress:</p>
+  <input type="text" name="naddress" [(ngModel)]="newAddress.naddress"/>
+  <button (click)="addNewAddress()"></button>
+<!-- </div> -->

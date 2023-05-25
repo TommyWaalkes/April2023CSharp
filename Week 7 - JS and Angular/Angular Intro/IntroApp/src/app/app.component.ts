@@ -31,5 +31,9 @@ export class AppComponent {
   products:Product[] = [{name:"Flex Tape", description:"Patches up anything even a broken marriage ", price:35.99}, 
                         {name: "Monopoly Money", description:"Try using this with a vending machine", price:19.99}, 
                         {name: "Rubber Ducky", description: "Goes Squeak", price:4.99}
-                      ]
+                      ];
+  Add(x:number, y:number):number{
+    return x + y; 
+  }
+
 }
