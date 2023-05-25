@@ -1,0 +1,30 @@
+<h2 *ngIf="addresses.length>=5">The List is full, no more addresses may be added</h2>
+
+<input type="text" placeholder="Address to filter" [(ngModel)]="addressToFilter">
+<button (click)="filterAddresses(addressToFilter)">Filter Address</button>
+<button (click)="clearFilter()">Clear Filter</button>
+
+<div *ngFor="let a of filteredAddresses; index as i">
+  <div>
+    <p>Name: {{a.Name}}</p>
+    <p>Address: {{a.Address}}</p>
+    <button (click)="deleteAddress(i)">Delete {{a.Name}}</button>
+  </div>
+  
+  <button (click)="toggleDisplay(i)" *ngIf="!addresses[i].isEditing">Edit Address</button>
+  <button (click)="toggleDisplay(i); editAddress(i)" *ngIf="addresses[i].isEditing">Done Editing</button>
+  <div *ngIf="addresses[i].isEditing">
+    <input type="text" placeholder="Name" [(ngModel)]="addressToEdit.Name"/><br/>
+    <input type="text" placeholder="Address" [(ngModel)]="addressToEdit.Address"/><br/>
+  </div>
+  
+</div>
+
+<div *ngIf="addresses.length < 5">
+  <h2>Add New Address</h2>
+  <p>Name:</p>
+  <input type="text" name="Name" [(ngModel)]="newAddress.Name">
+  <p>Adress:</p>
+  <input type="text" name="Address" [(ngModel)]="newAddress.Address">
+  <button (click)="addNewAddress()">Add new Address</button>
+</div>
