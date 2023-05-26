@@ -12,5 +12,9 @@ export class StudentListComponent {
     {name:"Luigi", grade:60},
     {name:"Bowser", grade:30}
   ]; 
+  updateStudent(s:Student, i:number){
+    this.students[i] = s; 
+  }
    
+  //changeName(name:string, )
 }
