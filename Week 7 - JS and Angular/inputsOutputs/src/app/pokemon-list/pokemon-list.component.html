@@ -1,5 +1,6 @@
-<div *ngFor="let p of pokemon">
+<div *ngFor="let p of pokemon; index as i">
     <app-pokemon-details [pokemon]="p"></app-pokemon-details>
+    <app-edit-pokemon [editPokemon]="p" (changed)="updatePokemon($event, i)"></app-edit-pokemon>
     <!--     <app-edit-student [studentToEdit]="s" (changed)="updateStudent($event, i)"></app-edit-student>
  -->
 </div>

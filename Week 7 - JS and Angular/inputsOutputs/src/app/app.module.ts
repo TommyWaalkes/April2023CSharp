@@ -6,13 +6,15 @@ import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
 import { AddNewPokemonComponent } from './add-new-pokemon/add-new-pokemon.component';
 import { FormsModule } from '@angular/forms';
+import { EditPokemonComponent } from './edit-pokemon/edit-pokemon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonListComponent,
     PokemonDetailsComponent,
-    AddNewPokemonComponent
+    AddNewPokemonComponent,
+    EditPokemonComponent
   ],
   imports: [
     BrowserModule,

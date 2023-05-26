@@ -1,0 +1,19 @@
+<button *ngIf="!show" (click)="show = !show">Edit {{editPokemon.name}}</button>
+
+<div *ngIf="show">
+    <h2>Edit {{editPokemon.name}}</h2>
+
+    <p>Name</p>
+    <input type="text" name="name" [(ngModel)]="editPokemon.name"/>
+
+    <p>Id</p>
+    <input type="number" name="id" [(ngModel)]="editPokemon.id"/>
+
+    <p>Evolve Level</p>
+    <input type="number" name="evolveLevel" [(ngModel)]="editPokemon.evolveLevel"/>
+
+    <p>Types: Please input each type as a Comma separated list</p>
+    <input type="text" name="types" [(ngModel)]="types"/>
+
+    <button (click)="sendUpEdits()">Finish Edits</button>
+</div>

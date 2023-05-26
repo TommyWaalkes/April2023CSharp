@@ -17,4 +17,8 @@ export class PokemonListComponent {
   addPokemon( p:Pokemon):void{
     this.pokemon.push(p);
   }
+
+  updatePokemon( newValues:Pokemon, index:number){
+    this.pokemon[index] = newValues; 
+  }
 }
