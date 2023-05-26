@@ -1,0 +1,15 @@
+<h2>Add a new Pokemon</h2>
+
+<p>Name</p>
+<input type="text" name="name" [(ngModel)]="newPokemon.name"/>
+
+<p>Id</p>
+<input type="number" name="id" [(ngModel)]="newPokemon.id"/>
+
+<p>Evolve Level</p>
+<input type="number" name="evolveLevel" [(ngModel)]="newPokemon.evolveLevel"/>
+
+<p>Types: Please input each type as a Comma separated list</p>
+<input type="text" name="types" [(ngModel)]="types"/>
+
+<button (click)="addNew()">Add new</button>
