@@ -1,0 +1,8 @@
+<span *ngIf="editing">Edit Task:
+
+<input type="text" name="task" [(ngModel)]="editTask.task"/>
+
+<button (click)="finishEditing()">Done Editing</button>
+</span>
+
+<button *ngIf="!editing" (click)="editing = true">Edit Task</button>

@@ -1,0 +1,19 @@
+<div *ngFor="let t of todos; index as i">
+    <p>{{i}}: Task: {{t.task}}, Completed: {{t.completed}} 
+        <button *ngIf="!t.completed" (click)="completeTask(i)">Complete task</button>
+        <button *ngIf="!t.isEditing" (click)="editTask(i)">Edit</button>
+        <span *ngIf="t.isEditing">Edit Task 
+            <input type="text" name="task" [(ngModel)]="t.task"/> 
+            <button (click)="finishEdit(i)">Done Editing</button>
+        </span>
+        <button (click)="deleteTask(i)">X</button>
+
+    </p>
+</div>
+
+<p>Add a new task</p>
+
+<p>Task Name: </p>
+<input type="text" name="task" [(ngModel)]="newTask.task"/>
+
+<button (click)="addTask()">Add new Task</button>

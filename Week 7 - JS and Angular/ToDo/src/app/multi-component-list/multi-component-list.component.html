@@ -1,0 +1,9 @@
+<div *ngFor="let t of todos; index as i">
+    <p>{{i}}: Task: {{t.task}}, Completed: {{t.completed}} 
+        <button *ngIf="!t.completed" (click)="completeTask(i)">Complete Task</button>
+        <app-edit-task [editTask]="t" (changed)="updateTask($event, i)"></app-edit-task> 
+        
+        <button (click)="deleteTask(i)">X</button></p>
+</div>
+
+<app-add-new-task (changed)="newTask($event)"></app-add-new-task>
