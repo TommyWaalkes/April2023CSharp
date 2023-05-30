@@ -1,0 +1,15 @@
+<h2>Perimeter Calculator</h2>
+
+<p>Length</p>
+<input type="number" [(ngModel)]="len"/>
+
+<p>Width</p>
+<input type="number" [(ngModel)]="width"/>
+
+<button (click)="getRectPerimeter()">Calc Perimeter</button>
+
+<p>Result: {{result}}</p>
+
+<div *ngFor="let s of searchResults">
+  <p>Title: {{s.Title}}</p>
+</div>
