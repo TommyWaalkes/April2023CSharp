@@ -1,0 +1,6 @@
+<div *ngFor="let p of posts; index as i">
+<app-single-post [post]="p" (changed)="deletePost(i)"></app-single-post>
+
+</div> 
+
+<app-new-post-form (changed)="addNewPost($event)"></app-new-post-form>

@@ -1,0 +1,14 @@
+
+<button (click)="toggleDisplay()">Show/Hide new post form</button>
+
+<div *ngIf="display">
+    <p>New Post</p>
+
+    <p>Title</p>
+    <input type="text" [(ngModel)]="newPost.title"/>
+
+    <p>Thought</p>
+    <input type="text" [(ngModel)]="newPost.thought"/>
+
+    <button (click)="emitNewPost()">Add new Post</button>
+</div>
