@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { MovieResults } from './movie';
+import { MovieDetails, MovieResults } from './movie';
 
 @Injectable({
   providedIn: 'root'
@@ -25,6 +25,10 @@ export class OmdbAPIService {
   //Which kicks and reacts once the call is done. 
   searchMovies(searchTerm:string):Observable<MovieResults>{
     return this.http.get<MovieResults>(this.url + "s="+searchTerm+"&apikey=" + this.key);
+  }
+
+  searchMoviesById(imdbID:string){
+    return this.http.get<MovieDetails>(this.url + "i=" + imdbID + "&apikey="+this.key)
   }
 
 }

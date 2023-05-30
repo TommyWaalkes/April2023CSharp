@@ -10,6 +10,13 @@
 
 <p>Result: {{result}}</p>
 
+<p>Look Up Movies in the OmDB</p>
+<input type="text" [(ngModel)]="searchTerm"/>
+<button (click)="searchOmdb()">Search for {{searchTerm}} </button>
+
 <div *ngFor="let s of searchResults">
   <p>Title: {{s.Title}}</p>
+  <button (click)="getMovieDetails(s.imdbID)">See Details for {{s.Title}}</button>
 </div>
+
+<app-movie-details [displayMovie]="selectedMovie"></app-movie-details>
