@@ -1,0 +1,9 @@
+<h2>Species Name: {{displayPokemon.name}}</h2>
+<img src={{displayPokemon.sprites.front_default}} width="150px" height="auto"/>
+
+<p>Types:</p>
+<p *ngFor="let t of displayPokemon.types">
+  {{t.type.name}}
+</p>
+
+<button (click)="getRandomPokemon()">Get Another Random Pokemon</button>
