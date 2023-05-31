@@ -17,6 +17,12 @@ export class AppComponent {
         this.posts = result.data.children; 
       }
     )
+
+    this.redditPosts.getSearch().subscribe(
+      (result)=>{
+        console.log(result);
+      }
+    )
   }
 
 

@@ -13,4 +13,8 @@ export class RedditService {
   getPosts():Observable<RedditPost>{
     return this.http.get<RedditPost>(this.url);
   }
+
+  getSearch() :Observable<string>{
+    return this.http.get<string>("https://www.reddit.com/r/aww/.json");
+  }
 }
