@@ -1,0 +1,53 @@
+/* CSS Classes are meant to be reuseable, Ids are meant to be single use
+  Ids will trump classes, if the two operate on the same rule so Ids for overriding as well
+*/
+.font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.linkSize{
+    font-size: 18px;
+}
+
+.centerElement{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#PageWidth{
+    width: 35%;
+}
+
+.postWidth{
+    width: 60%;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.centerImage{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.postSpacing{
+    margin-bottom: 55px;
+}
+
+.border{
+    border: 2px solid black;
+}
+
+.postPadding{
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.postBackground{
+    background-color: #748ed4;
+}
+
+a{
+    color:white;
+}

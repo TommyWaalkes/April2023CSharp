@@ -1,0 +1,11 @@
+<div id="PageWidth" class="centerElement">
+  <h2 class="centerText">Reddit Aww Subreddit</h2>
+
+  <div class="postWidth centerElement postSpacing border postPadding postBackground" *ngFor="let c of posts">
+    <a href="https://www.reddit.com/{{c.data.permalink}}" >
+      <p class="font linkSize centerText">Title: {{c.data.title}}</p>
+      <img width="100%" class="centerElement" src={{c.data.thumbnail}}/>
+      <br>
+    </a>
+  </div>
+</div>
