@@ -18,7 +18,7 @@ namespace SchoolAPI.Controllers
             return db.Students.ToList();
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public Student GetStudent(int id)
         {
             return db.Students.Find(id);
@@ -30,6 +30,21 @@ namespace SchoolAPI.Controllers
         public void MakeStudent(Student student)
         {
             db.Students.Add(student);
+            db.SaveChanges();
+        }
+
+        [HttpDelete("{id}")]
+        public void DeleteStudent(int id)
+        {
+            Student s = db.Students.Find(id);
+            db.Students.Remove(s);
+            db.SaveChanges();
+        }
+
+        [HttpPut("{id}")]
+        public void PutStudent(int id, Student student) {
+            student.Id = id;
+            db.Students.Update(student);
             db.SaveChanges();
         }
     }
