@@ -1,0 +1,17 @@
+<div *ngFor="let s of students">
+  <p>Name: {{s.name}}</p>
+</div>
+
+<p>Add new Student</p>
+
+<p>Name</p>
+<input type="name" [(ngModel)]="newStudent.name"/>
+
+<p>Average Grade</p>
+<input type="number" [(ngModel)]="newStudent.averageGrade"/>
+
+<p>Is Passing</p>
+<!-- Check boxes when uncheck may return nulls and not false -->
+<input type="checkbox" [(ngModel)]="newStudent.isPassing" />
+
+<button (click)="addNew()" >Add new Student</button>
