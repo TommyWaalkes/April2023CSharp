@@ -37,8 +37,13 @@ public class DonutDetails
     public string _ref { get; set; }
     public string name { get; set; }
     public int calories { get; set; }
-    [ForeignKey("Extra")]
-    public virtual ICollection<Extra> extras { get; set; }
+
+    [NotMapped]
+    [JsonPropertyName("extras")]
+    public string[] extrasApi { get; set; }
+
+    //[ForeignKey("Extra")]
+    //public virtual ICollection<Extra> extras { get; set; }
 
     public string photo { get; set; }
     public string photo_attribution { get; set; }
@@ -50,9 +55,6 @@ public class Extra
     public int id { get; set; }
 
     public string extra { get; set; }
-
-    [ForeignKey("DonutDetails")]
-    public virtual ICollection<DonutDetails> extras { get; set; }
 }
 
 

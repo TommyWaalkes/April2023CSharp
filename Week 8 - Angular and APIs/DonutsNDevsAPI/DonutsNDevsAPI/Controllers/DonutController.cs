@@ -33,19 +33,21 @@ namespace DonutsNDevsAPI.Controllers
             //}
             List<DonutDetails> details = new List<DonutDetails>();
             List<Extra> extras = new List<Extra>();
-            for(int i = 0; i < 9; i++)
+          
+            for(int i = 1; i < 9; i++)
             {
                 DonutDetails d = dal.GetDonutDetails(i);
+                d.id = 0; 
                 details.Add(d);
-                foreach(Extra e in d.extras)
+                foreach(string e in d.extrasApi)
                 {
-                    extras.Add(e);
+                    extras.Add(new Extra() { id=0, extra=e });
                 }
             }
 
             //Lets you add multiple items at one, will take either an array/collection or inidividual object
             db.donutDetails.AddRange(details);
-            db.extras.AddRange(extras);
+            db.extra.AddRange(extras);
 
             db.SaveChanges();
         }
