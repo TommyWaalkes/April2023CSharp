@@ -7,7 +7,7 @@ namespace DonutsNDevsAPI.Models
         public DbSet<Result> donutResults { get; set; }
         public DbSet<DonutDetails> donutDetails { get; set; }
         public DbSet<Extra> extra { get; set; }
-        public DbSet<DonutExtras> donutExtras { get; set; }
+        public DbSet<DonutExtras> donutDetailsExtra { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

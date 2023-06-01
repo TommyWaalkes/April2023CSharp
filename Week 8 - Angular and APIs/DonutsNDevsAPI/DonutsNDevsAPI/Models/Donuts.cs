@@ -60,13 +60,11 @@ public class Extra
 
 public class DonutExtras
 {
-    [Key]
-    public int id { get; set; }
 
     [ForeignKey("Extra")]
-    public int extraId { get; set; }
+    public int Extra { get; set; }
 
     [ForeignKey("DonutDetails")]
-    public int donutId { get; set; }
+    public int DonutDetails { get; set; }
 }
 
