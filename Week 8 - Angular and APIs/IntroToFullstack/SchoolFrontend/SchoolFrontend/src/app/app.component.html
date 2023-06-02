@@ -1,5 +1,9 @@
+<!-- You want to delete items by Id and not their index in the array. Since that's what SQL is expecting  -->
 <div *ngFor="let s of students">
   <p>Name: {{s.name}}</p>
+  <button (click)="deleteStudent(s.id)">Delete {{s.name}}</button>
+  <app-edit-student [student]="s"></app-edit-student>
+  <br/>
 </div>
 
 <p>Add new Student</p>

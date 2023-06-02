@@ -20,4 +20,12 @@ export class StudentService {
     //JSON is a format for objects readable by any language
     return this.http.post<Student>(this.url, student);
   }
+
+  deleteStudent(id:number):Observable<any>{
+    return this.http.delete<any>(this.url+"/"+id);
+  }
+
+  putStudent(id:number, newValues:Student):Observable<any>{
+    return this.http.put<any>(this.url+"/"+id, newValues);
+  }
 }

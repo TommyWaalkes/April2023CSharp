@@ -36,5 +36,21 @@ export class AppComponent {
     )
   }
 
+  deleteStudent(id:number){
+    //Even though this does not return anything, we still need to subscribe to it so it will run
+    this.studentService.deleteStudent(id).subscribe(
+      ()=>{
+        for(let i: number = 0; i < this.students.length; i++){
+          let s:Student = this.students[i]; 
+
+          if(s.id === id){
+            this.students.splice(i, 1);
+            break;
+          }
+        }
+      }
+    )
+  }
+
 
 }

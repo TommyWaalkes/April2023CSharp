@@ -1,0 +1,15 @@
+<div *ngIf="displayForm">
+    <button (click)="editStudent()">Finish Editing {{student.name}}</button>
+    <p>Name</p>
+    <input type="text" [(ngModel)]="student.name"/>
+    <p>Age</p>
+    <input type="number" [(ngModel)]="student.age"/>
+    <p>Average Grade</p>
+    <input type="number" [(ngModel)]="student.averageGrade"/>
+    <p>Is Passing</p>
+    <input type="checkbox" [(ngModel)]="student.isPassing"/>
+
+   
+</div>
+
+<button *ngIf="!displayForm" (click)="toggleDisplay()">Edit {{student.name}}</button>
