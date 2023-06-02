@@ -52,5 +52,13 @@ export class AppComponent {
     )
   }
 
+  updateStudent(newValues: Student, i:number){
+    this.studentService.putStudent(newValues.id, newValues).subscribe(
+      ()=>{
+        this.students[i] = newValues;
+      }
+    ); 
+  }
+
 
 }

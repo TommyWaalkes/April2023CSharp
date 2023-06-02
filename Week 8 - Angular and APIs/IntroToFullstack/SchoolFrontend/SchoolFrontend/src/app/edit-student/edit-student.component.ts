@@ -12,6 +12,7 @@ export class EditStudentComponent {
   @Output() changed = new EventEmitter<Student>();
 
   editStudent(){
+    //ex mitto - send out, send away
     this.changed.emit(this.student);
     this.toggleDisplay();
   }
