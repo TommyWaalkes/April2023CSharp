@@ -3,6 +3,7 @@ using DonutsNDevsAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DonutsNDevsAPI.Migrations
 {
     [DbContext(typeof(DonutContext))]
-    partial class DonutContextModelSnapshot : ModelSnapshot
+    [Migration("20230602170340_AddIdToDonutExtras")]
+    partial class AddIdToDonutExtras
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

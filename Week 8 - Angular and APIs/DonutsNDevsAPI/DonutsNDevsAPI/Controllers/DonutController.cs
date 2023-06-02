@@ -52,23 +52,23 @@ namespace DonutsNDevsAPI.Controllers
             //-----------------------------------
             //Filling in Donut extras
 
-            List<DonutDetails> details = new List<DonutDetails>();
-            List<Extra> extras = new List<Extra>();
-            for (int i = 1; i < 9; i++)
-            {
-                DonutDetails d = dal.GetDonutDetails(i);
+            //List<DonutDetails> details = new List<DonutDetails>();
+            //List<Extra> extras = new List<Extra>();
+            //for (int i = 1; i < 9; i++)
+            //{
+            //    DonutDetails d = dal.GetDonutDetails(i);
               
-                details.Add(d);
-                List<int> extraIds = new List<int>();
-                foreach (string e in d.extrasApi)
-                {
-                    int extraId = db.extra.Where(extra => extra.extra == e).First().id;
-                    DonutExtras de = new DonutExtras() {Extra=extraId, DonutDetails = d.id };
-                    db.donutDetailsExtra.Add(de);
-                }
-            }
+            //    details.Add(d);
+            //    List<int> extraIds = new List<int>();
+            //    foreach (string e in d.extrasApi)
+            //    {
+            //        int extraId = db.extra.Where(extra => extra.extra == e).First().id;
+            //        DonutExtras de = new DonutExtras() {Extra=extraId, DonutDetails = d.id };
+            //        db.donutDetailsExtra.Add(de);
+            //    }
+            //}
 
-            db.SaveChanges();
+            //db.SaveChanges();
         }
 
     }
