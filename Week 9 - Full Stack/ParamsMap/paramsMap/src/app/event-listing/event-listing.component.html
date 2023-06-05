@@ -1,0 +1,3 @@
+<h2>Historical Events</h2>
+
+<a *ngFor="let e of events" [router-link]="details/e.id"><p >{{e.name}}</p></a>
