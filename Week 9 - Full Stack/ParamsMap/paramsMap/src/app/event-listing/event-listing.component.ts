@@ -13,4 +13,6 @@ export class EventListingComponent {
     {id: 1, name:"Founding of the US", location:"Boston", year:1784 }, 
     {id: 2, name:"French Revolution", location:"France", year:1790 }
   ];
+  id:number = 0; 
+  name:string = "";
 }

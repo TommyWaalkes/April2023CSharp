@@ -1,3 +1,12 @@
 <h2>Historical Events</h2>
+<div *ngFor="let e of events">
+<a  routerLink="details/{{e.id}}"><p >{{e.name}}</p></a>
+</div>
 
-<a *ngFor="let e of events" [router-link]="details/e.id"><p >{{e.name}}</p></a>
+<p>Input a name</p>
+<input type="text" name="name" [(ngModel)]="name"/>
+
+<p>Input an Id</p>
+<input type="number" name="id" [(ngModel)]="id"/>
+
+<a routerLink="doubleParams/{{id}}/{{name}}">Test double params </a>
