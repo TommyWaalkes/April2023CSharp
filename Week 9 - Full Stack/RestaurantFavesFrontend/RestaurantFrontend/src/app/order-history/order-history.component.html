@@ -1,0 +1,8 @@
+<div *ngFor="let o of orders; index as i" class="orderSpacing">
+    <p>Restaurant: {{o.restaurant}}</p>
+    <p>Description: {{o.description}}</p>
+    <p>Rating: {{o.rating}}</p>
+    <p>Order Again: <span *ngIf="o.orderAgain"> ✓</span> <span *ngIf="!o.orderAgain">X</span></p>
+
+    <button (click)="deleteOrder(o.id, i)">Delete this Order</button>
+</div>
