@@ -16,20 +16,27 @@ namespace CompositionExample
         Paper,
         Scissors
     }
+
+    //One player represents all players, without that we'd need to make a whole new player with the picking method tied to them. 
     internal class RPSPlayer
     {
-        IRPSPicker picker; 
+        public string Name { get; set; } 
+        IRPSPicker picker;
+        INamer namer; 
 
         //The goal here is to allow any player to use any approach for RPS 
-        public RPSPlayer(IRPSPicker picker)
+        public RPSPlayer(IRPSPicker picker, INamer namer)
         {
             this.picker = picker;
+            this.namer = namer;
+
+            Name = namer.PickName();
         }
 
         public RockPaperScissors PickRPS()
         {
             //This abstracts this functionality entirely over into the interface hiearchy
-            return picker.ChoosesRPS();
+            return picker.ChooseRPS();
         }
     }
 }
