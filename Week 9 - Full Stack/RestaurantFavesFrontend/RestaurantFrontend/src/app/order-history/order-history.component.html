@@ -6,3 +6,5 @@
 
     <button (click)="deleteOrder(o.id, i)">Delete this Order</button>
 </div>
+
+<app-add-order (changed)="addNewOrder($event)"></app-add-order>

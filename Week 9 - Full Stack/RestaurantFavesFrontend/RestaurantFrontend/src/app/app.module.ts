@@ -4,15 +4,19 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
+import { AddOrderComponent } from './add-order/add-order.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OrderHistoryComponent
+    OrderHistoryComponent,
+    AddOrderComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule, 
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

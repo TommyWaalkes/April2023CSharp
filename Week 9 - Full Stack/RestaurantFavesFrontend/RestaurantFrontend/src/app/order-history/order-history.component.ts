@@ -15,6 +15,12 @@ export class OrderHistoryComponent {
     );
   }
 
+  addNewOrder(newOrder:Order){
+    this.api.createOrder(newOrder).subscribe(
+      ()=>{this.orders.push(newOrder);
+      }
+    );
+  }
   deleteOrder(id:number, index:number){
     this.api.delete(id).subscribe(
       (result)=>{
