@@ -1,0 +1,15 @@
+<h2>Select an Employee to assign this task</h2>
+
+<p>Name: {{todo.name}}</p>
+<p>Description: {{todo.description}}</p>
+<p>Hours Needed: {{todo.hoursNeeded}}</p>
+<p>Assigned Id: {{todo.assignedTo}}</p>
+<br/>
+
+<!-- <select id="Assign" [(ngModel)]="selected">
+    <option *ngFor="let e of employees" value="e.id" >{{e.name}}</option>
+</select> -->
+
+<!-- <button (click)="assignTodo(selected.id)">Assign Task</button> -->
+
+<button *ngFor="let e of employees" (click)="assignTodo(e.id)"> Assign to {{e.name}}</button>

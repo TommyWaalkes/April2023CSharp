@@ -7,13 +7,17 @@ import { EmployeesListComponent } from './employees-list/employees-list.componen
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { EditEmployeeComponent } from './edit-employee/edit-employee.component';
 import { FormsModule } from '@angular/forms';
+import { TodoListComponent } from './todo-list/todo-list.component';
+import { AssignTodosComponent } from './assign-todos/assign-todos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeesListComponent,
     AddEmployeeComponent,
-    EditEmployeeComponent
+    EditEmployeeComponent,
+    TodoListComponent,
+    AssignTodosComponent
   ],
   imports: [
     BrowserModule, 

@@ -19,6 +19,10 @@ export class ToDosService {
     return this.http.delete<any>(this.url+id)
   }
 
+  updateTodo(newValues:ToDo, id:number):Observable<any>{
+    return this.http.put(this.url+id, newValues);
+  }
+
   //Remember services can have methods beyond calling APIs
   getToDosByEmployee(employeeId:number, todos:ToDo[] ):any{
     

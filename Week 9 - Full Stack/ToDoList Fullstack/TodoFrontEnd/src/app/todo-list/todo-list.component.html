@@ -1,0 +1,10 @@
+<br/>
+<div *ngFor="let t of todos">
+    <p>Name: {{t.name}}</p>
+    <p>Description: {{t.description}}</p>
+    <p>Hours Needed: {{t.hoursNeeded}}</p>
+    <p>Assigned Id: {{t.assignedTo}}</p>
+    <br/>
+</div>
+
+<app-assign-todos [todo]="todoToAssign" (changed)="updateAssigned()"></app-assign-todos>
