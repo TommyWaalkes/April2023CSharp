@@ -16,9 +16,14 @@ export class AssignTodosComponent implements OnInit {
   employees:Employee[] = [];
   selected:Employee = {} as Employee;
 
+  //Constructor runs onces 
   constructor(private employeeApi:EmployeeService, private todoApi:ToDosService){
     
   }
+
+  //Runs every time the component is loaded 
+  //You want to use ng on init you are navigating between lots of components
+  //It ensures that code will be run
   ngOnInit(): void {
     this.employeeApi.getAllEmployees().subscribe(
       (result)=>{
