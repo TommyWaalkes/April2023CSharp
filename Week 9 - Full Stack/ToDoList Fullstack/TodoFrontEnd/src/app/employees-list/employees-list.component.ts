@@ -12,15 +12,20 @@ import { ToDo } from '../toDo';
 export class EmployeesListComponent implements OnInit {
   employees:Employee[] = [];
   todos:ToDo[] = [];
+  display:boolean = false;
 
   //Runs once as the app loads
-  constructor(private api:EmployeeService, private todoApi:ToDosService){
+  constructor(private employeeApi:EmployeeService, private todoApi:ToDosService){
   
   }
 
   //Runs any time we reload the component 
   ngOnInit(): void {
-    this.api.getAllEmployees().subscribe(
+    this.loadEmployees();
+  }
+
+  loadEmployees(){
+    this.employeeApi.getAllEmployees().subscribe(
       (result) =>{
         this.employees = result;
         this.todoApi.getAll().subscribe(
@@ -32,26 +37,37 @@ export class EmployeesListComponent implements OnInit {
       }
     );
   }
-
   //The backend wants to be passed the ID 
   //The front-end will have an easier with the index 
   deleteEmployee(id:number, index:number){
     console.log(index);
+    if(this.employees[index].toDos !== undefined || this.employees[index].toDos.length> 0){
     let toDos: ToDo[] = this.employees[index].toDos; 
 
-    if(toDos.length >0 || this.todos !== undefined){
-      for(let i = 0; i < this.todos.length; i++){
-        this.todoApi.deleteTodo(toDos[i].id).subscribe(
-          ()=>{
-            toDos.splice(index, 1);
-          }
-        );
+      if(toDos.length >0 || this.todos !== undefined){
+        for(let i = 0; i < this.todos.length; i++){
+          this.todoApi.deleteTodo(toDos[i].id).subscribe(
+            ()=>{
+              toDos.splice(index, 1);
+            }
+          );
+        }
       }
     }
 
-    this.api.deleteEmployee(id).subscribe(
+    this.employeeApi.deleteEmployee(id).subscribe(
       ()=>{
-        this.employees.splice(index,1);
+        //this.employees.splice(index,1);
+        this.loadEmployees();
+      }
+    )
+  }
+
+  addEmployee(newEmployee:Employee){
+    this.employeeApi.createEmployee(newEmployee).subscribe(
+      ()=>{
+        //this.employees.push(newEmployee);
+        this.loadEmployees();
       }
     )
   }
@@ -61,5 +77,10 @@ export class EmployeesListComponent implements OnInit {
       //I pass in the full to do array that way we do not need to call the api every time the loop runs 
       this.employees[i].toDos= this.todoApi.getToDosByEmployee( this.employees[i].id, this.todos);
     }
+  }
+
+  selectEmployeeToEdit(e:Employee, index:number){
+    this.employeeApi.editEmployee = e;
+    this.display = true;
   }
 }

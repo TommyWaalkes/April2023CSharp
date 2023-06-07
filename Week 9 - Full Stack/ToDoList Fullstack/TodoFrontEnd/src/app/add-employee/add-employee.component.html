@@ -1,1 +1,11 @@
-<p>add-employee works!</p>
+<h2>Add New Employee</h2>
+<p>Name</p>
+<input type="text" [(ngModel)]="newEmployee.name"/>
+
+<p>Title</p>
+<input type="text" [(ngModel)]="newEmployee.title"/>
+
+<p>Hours Worked</p>
+<input type="number" min="1" max="40" [(ngModel)]="newEmployee.hours"/>
+
+<button (click)="emitEmployee()">Create new Employee</button>
